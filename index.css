@@ -129,7 +129,7 @@ select {
 }
 .search-fs {
   position: absolute;
-  left: 24em;
+  left: 27em;
   margin-top: 0.9em;
 }
 .searchBox {
@@ -481,4 +481,64 @@ label {
 .above-footer-card > img {
   padding: 0;
   width: 100%;
+}
+
+/* footer */
+
+.footerContainer {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.logoImage {
+  width: 150px;
+  height: 150px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-title {
+  color: rgb(212, 71, 71);
+  font-weight: bold;
+}
+
+.footer-title-container {
+  border-bottom: 2px solid;
+  border-color: rgb(212, 71, 71);
+  width: 25%;
+}
+.footer-subTitle {
+  font-size: x-large;
+  white-space: nowrap;
+  color: rgb(141, 140, 140);
+}
+
+.input-icon {
+  color: white;
+}
+
+.lower-footer {
+  margin-top: 15px;
+  background-color: rgb(212, 71, 71);
+  text-align: center;
+}
+
+.lower-footer-text {
+  color: white;
+}
+
+.footer-subtitle-container {
+  padding-top: 25px;
+}
+.form-control {
+  text-align: right;
+  font-size: x-large;
+}
+
+.fa-arrow-left-long {
+  margin-top: 2em;
+  color: #ffffff;
+  background-color: red;
 }
