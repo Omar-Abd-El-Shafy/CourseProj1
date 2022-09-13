@@ -399,6 +399,29 @@ label {
   flex-wrap: nowrap;
   align-items: center;
   column-gap: 10%;
+  flex-grow: 1;
+}
+
+.l-col-vote-button-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  column-gap: 5%;
+}
+.vote,
+.vote-result {
+  font-size: x-large;
+  height: 2em;
+}
+.vote {
+  background-color: red;
+  color: white;
+  width: 4em;
+}
+.vote-result {
+  background-color: #f8f8f8;
+  color: rgb(145, 143, 143);
 }
 .l-col-mid-rating > input {
   position: absolute;
@@ -503,11 +526,13 @@ ul {
   color: rgb(212, 71, 71);
   font-weight: bold;
 }
-
+.twasl-container {
+  margin-bottom: 2.3em;
+}
 .footer-title-container {
   border-bottom: 2px solid;
   border-color: rgb(212, 71, 71);
-  width: 25%;
+  width: 50%;
 }
 .footer-subTitle {
   font-size: x-large;
